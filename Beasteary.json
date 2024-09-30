@@ -1,0 +1,63 @@
+{
+  "Goblin":
+  {
+    "HP": 5,
+    "Weapon": "Claw",
+    "Icon": "G",
+    "Speed": 3,
+    "Loot Table":
+    {
+      "Claw":
+      {
+        "Chance":15,
+        "Quantity":[1,1]
+      },
+      "Dirty Overalls":  
+      {
+        "Chance":20,
+        "Quantity":[1,1]
+      }
+    }
+  },
+  "Dwarf":
+  {
+    "HP": 2,
+    "Weapon": "Bear Fist",
+    "Icon": "D",
+    "Speed": 4,
+    "Loot Table":
+    {
+      "Gnome Hat":
+      {
+        "Chance":1,
+        "Quantity":[1,1]
+      },
+      "Pixie Dust":  
+      {
+        "Chance":75,
+        "Quantity":[1,3]
+      }
+    }
+  },
+  "Golem":
+  {
+    "HP": 2,
+    "Weapon": "Clay Fist",
+    "Icon": "ß",
+    "Speed": 1,
+    "Loot Table":
+    {
+      "Clay Fist":
+      {
+        "Chance":15,
+        "Quantity":[1]
+      },
+      "Clay":  
+      {
+        "Chance":100,
+        "Quantity":[1,3]
+      }
+    }
+  }
+
+}
